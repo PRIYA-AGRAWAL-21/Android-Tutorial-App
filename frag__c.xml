@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/blackpink4"
+    android:orientation="vertical"
+    tools:context="com.developers.droidteam.androidapp.Frag_C">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Activity &amp; Intents "
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="serif"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:background="@drawable/button3background"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button3"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:text="Activity Lifecycle"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/b2"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button3"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:text="Intent"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/b3"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button3"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:text="Implicite Intent"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/b4"
+                android:layout_margin="5dp"
+                android:background="@drawable/button3"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:text="Explicite Intent"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:id="@+id/b5"
+                android:background="@drawable/button3"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:text="StartActivityforresult"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

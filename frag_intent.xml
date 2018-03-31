@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.developers.droidteam.androidapp.Frag_intent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#138795"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/t1"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"
+                    />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:background="#138795"
+                    android:id="@+id/tbl"
+                    android:padding="20dp"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/tr1">
+                        <TextView
+
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:textSize="25sp"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:text="S.N."/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="25sp"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:text="Method and Description"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:layout_marginRight="10dp"
+                            android:text="1"/>
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_weight="1"
+
+                            android:gravity="left"
+                            android:shadowColor="#ff0"
+                            android:text="Content.startActivity()
+ The intent object is passed to this method to launch a new activity or get an existing activity to do something new.
+"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:layout_marginRight="10dp"
+                            android:text="2"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:shadowColor="#ff0"
+                            android:text="Context.startService()
+The Intent Object is passed to this method to initiate a service or deliver  new instructions to an ongoing service
+"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:layout_marginRight="10dp"
+                            android:shadowColor="#ff0"
+                            android:text="3"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:gravity="left"
+                            android:shadowColor="#ff0"
+                            android:text="Context.sendBroadcast()
+                            The intent Object is passed to this method to deliver the message to all interested broadcast receivers.
+"/>
+                    </TableRow>
+                 </TableLayout>
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/t2"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+
+                    android:id="@+id/iv1"
+                    />
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/t3"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:layout_marginBottom="20dp"
+
+                    android:id="@+id/iv2"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

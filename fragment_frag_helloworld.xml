@@ -1,0 +1,288 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.developers.droidteam.androidapp.Frag_helloworld">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#138795"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/txt"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+
+                    android:id="@+id/iv1"
+                    />
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/t1"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+
+                    android:id="@+id/iv2"/>
+               <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/t2"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+
+                    android:id="@+id/iv3"/>
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/t3"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+
+                    android:id="@+id/iv4"
+                    />
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/t5"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"
+                    />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:background="#138795"
+                    android:id="@+id/tbl"
+                    android:padding="20dp"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/tr1">
+                        <TextView
+
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:textSize="25sp"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:text="S.N."/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="25sp"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:text="Folder,File and Description"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:layout_marginRight="10dp"
+                            android:text="1"/>
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_weight="1"
+
+                            android:gravity="left"
+                            android:shadowColor="#ff0"
+                            android:text="src
+This contain the .java source files for your project.By dafault , it includes a main activity .java source file having an activity class that runs when your app is launched using the app icon.
+"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:layout_marginRight="10dp"
+                            android:text="2"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:shadowColor="#ff0"
+                            android:text="gen
+This contain the .R file , a compiler-generated file  that  references all the resources found in your project.You should not modify this file.
+"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:layout_marginRight="10dp"
+                            android:shadowColor="#ff0"
+                            android:text="3"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:gravity="left"
+                            android:shadowColor="#ff0"
+                            android:text="bin
+This folder contains the Android package files  .apk (An apk file is created by the framework automatically. If you want to run the android application on the mobile, transfer and install it.) built by the ADT during the build process and everything else needed to run an android application.
+"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:layout_marginRight="10dp"
+                            android:text="4"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:gravity="left"
+                            android:textColor="#fff"
+                            android:shadowColor="#ff0"
+                            android:text="Resources/drawable
+This is a directory for drawable objects that are designed for high density screen.
+"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:text="5"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:gravity="left"
+
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:shadowColor="#ff0"
+                            android:text="res/layout
+This is a directory for files that define your apps user interface.
+"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="#000"
+                            android:layout_marginRight="10dp"
+                            android:shadowColor="#ff0"
+                            android:text="6"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:gravity="left"
+                            android:shadowColor="#ff0"
+                            android:text="res/values
+This is a directory for other various XML files that contains a collection of resources, such as strings and colors definition.
+"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:shadowColor="#ff0"
+                            android:layout_marginRight="10dp"
+                            android:text="7"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="20sp"
+                            android:gravity="left"
+                            android:textColor="#fff"
+                            android:shadowColor="#ff0"
+                            android:text="AndroidManifest.xml
+This is the manifest file which describes the fundamental characteristics of the app and defines  each of its components such as activities, services, content providers etc.
+"/>
+                    </TableRow>
+                </TableLayout>
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:id="@+id/t7"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#000"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+
+                    android:id="@+id/iv5"
+                    />
+                <TextView
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/t6"
+                    android:gravity="left"
+                    android:background="#138795"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

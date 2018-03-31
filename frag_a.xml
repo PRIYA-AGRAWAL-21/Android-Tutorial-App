@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    android:orientation="vertical"
+    tools:context="com.developers.droidteam.androidapp.Frag_A">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/l1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="WELCOME TO ANDROID TUTORIAL "
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonbackground"
+        android:layout_height="wrap_content" />z
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:id="@+id/b1"
+                android:padding="10dp"
+                android:text="History"
+                android:textColor="#235"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:id="@+id/b2"
+
+                android:text="Features Of Android"
+                android:textColor="#235"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:text="Android Architecture"
+                android:textColor="#235"
+                android:id="@+id/b3"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:id="@+id/b4"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:text="Application Component"
+                android:textColor="#235"
+                android:textSize="20sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:id="@+id/b5"
+                android:text="Installation"
+
+                android:textColor="#235"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:id="@+id/b6"
+                android:text="HelloWorld Example"
+                android:textColor="#235"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:id="@+id/b7"
+                android:text="Dalvik VM"
+                android:textColor="#235"
+                android:textSize="20sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:id="@+id/b8"
+                android:text="Hide Title Bar"
+                android:textColor="#235"
+                android:textSize="20sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:id="@+id/b9"
+                android:padding="10dp"
+                android:text="Screen Orientation"
+                android:textColor="#235"
+                android:textSize="20sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:padding="10dp"
+                android:id="@+id/b10"
+                android:text="Intent-filter"
+                android:textColor="#235"
+                android:textSize="20sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttons"
+                android:gravity="center"
+                android:minHeight="60dp"
+                android:minWidth="120dp"
+                android:id="@+id/b11"
+                android:padding="10dp"
+                android:text="Log Class"
+                android:textColor="#235"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView></LinearLayout>
+
+</LinearLayout>
